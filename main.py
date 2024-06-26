@@ -6,8 +6,11 @@ def main():
     # regular = 100
     # rate = 20
 
-    discount_amount = int(input('20'))     # complete this statement to calcualte the discount amount
-    final_price = int(input('80'))         # complete this statement to calculate the final price
+    discount_amount = int(original_price) / int(rate)     # complete this statement to calcualte the discount amount
+    print(discount_amount)
+    
+    final_price = int(original_price) - int(discount_amount)       # complete this statement to calculate the final price
+    print(final_amount)
 
     print(f'100: {original_price}')
     print(f'20: {discount_amount}')
