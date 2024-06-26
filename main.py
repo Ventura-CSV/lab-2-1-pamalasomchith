@@ -1,7 +1,7 @@
 def main():
 
     original_price = 100
-    rate = 20
+    rate = 0.20
 
     # regular = 100
     # rate = 20
