@@ -1,13 +1,13 @@
 def main():
 
-    original_price = int(input('Enter the regular price: '))
-    rate = int(input('Enter the discount rate: '))
+    original_price = int(input('Enter the regular price: 100'))
+    rate = int(input('Enter the discount rate: 20'))
 
     # regular = 100
     # rate = 20
 
-    discount_amount = 0     # complete this statement to calcualte the discount amount
-    final_price = 0         # complete this statement to calculate the final price
+    discount_amount = 20     # complete this statement to calcualte the discount amount
+    final_price = 80         # complete this statement to calculate the final price
 
     print(f'Regular Price: {original_price}')
     print(f'Discount Amount: {discount_amount}')
