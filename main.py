@@ -9,9 +9,9 @@ def main():
     discount_amount = int(original_price) / int(rate)     # complete this statement to calcualte the discount amount
     final_price = int(original_price) - int(discount_amount)       # complete this statement to calculate the final price
 
-    print('original_price')
-    print('discount_amount')
-    print('final_price')
+    print(original_price)
+    print(discount_amount)
+    print(final_price)
 
    ##################################################
    # Do not delete the return statement
