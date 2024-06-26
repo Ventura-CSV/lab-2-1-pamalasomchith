@@ -10,7 +10,7 @@ def main():
     print(discount_amount)
     
     final_price = int(original_price) - int(discount_amount)       # complete this statement to calculate the final price
-    print(final_amount)
+    print(final_price)
 
     print(f'100: {original_price}')
     print(f'20: {discount_amount}')
