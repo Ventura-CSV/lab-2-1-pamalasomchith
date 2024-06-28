@@ -1,6 +1,6 @@
 def main():
 
-    original_price = 100
+    original_price = 200
     rate = (20/100)
 
     # regular = 100
