@@ -1,20 +1,19 @@
 def main():
 
-    original_price = int(200)
-    print(original_price)
-    
-    rate = int(20)
+    original_price = int(input())
+    rate = int(input())
 
     # regular = 200
     # rate = 20
+      
+    discount_amount = original_price * rate/100 
+    final_price = original_price - discount_amount
     
-    discount_amount = int(original_price)*(int(rate)/100) # complete this statement to calcualte the discount amount
+    print(original_price)
     print(discount_amount)
-    
-    final_price = int(original_price)- int(discount_amount)       # complete this statement to calculate the final price
     print(final_price)
+   
 
-    
 
    ##################################################
    # Do not delete the return statement
