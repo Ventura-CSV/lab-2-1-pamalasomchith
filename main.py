@@ -3,7 +3,7 @@ def main():
     original_price = 200
     rate = (20/100)
 
-    # regular = 100
+    # regular = 200
     # rate = 20
 
     discount_amount = int(original_price) * (rate)     # complete this statement to calcualte the discount amount
